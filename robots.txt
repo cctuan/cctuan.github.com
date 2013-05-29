@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://cctuan.github.io/sitemap.xml 
+Sitemap: http://cctuan.github.io/cctuan.github.com.git/sitemap.xml 

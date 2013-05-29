@@ -1,15 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://cctuan.github.io/blog/archives/</loc>
-        <lastmod>2013-05-29T12:56:18+08:00</lastmod>
+        <loc>http://cctuan.github.io/cctuan.github.com.git/blog/2013/05/30/beginning/</loc>
+        <lastmod>2013-05-30T07:21:25+08:00</lastmod>
     </url>
     <url>
-        <loc>http://cctuan.github.io/</loc>
-        <lastmod>2013-05-29T12:56:18+08:00</lastmod>
+        <loc>http://cctuan.github.io/cctuan.github.com.git/blog/archives/</loc>
+        <lastmod>2013-05-30T07:21:25+08:00</lastmod>
     </url>
     <url>
-        <loc>http://cctuan.github.io/robots.txt</loc>
-        <lastmod>2013-05-29T12:56:18+08:00</lastmod>
+        <loc>http://cctuan.github.io/cctuan.github.com.git/</loc>
+        <lastmod>2013-05-30T07:21:25+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://cctuan.github.io/cctuan.github.com.git/robots.txt</loc>
+        <lastmod>2013-05-29T12:59:48+08:00</lastmod>
     </url>
 </urlset>
