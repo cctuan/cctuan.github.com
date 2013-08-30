@@ -16,18 +16,21 @@
 	}
 	var feedbackUrl = 'https://input.allizom.org/api/v1/feedback/';
 
-	var xhr = new XMLHttpRequest({mozSystem: true});
+	var sendobj = {
+		happy: true,
+		description: (new Date).toString(),
+		product: 'firefoxos'
+	};
 
-  xhr.overrideMimeType('application/json');
+	var xhr = new XMLHttpRequest({mozSystem: true});
 
   xhr.open('POST', this.feedbackUrl, true);
   xhr.setRequestHeader(
-      'Content-type', 'application/x-www-form-urlencoded');
+      'Content-type', 'application/json');
   xhr.onreadystatechange = responseHandler;
 
-  this.xhr.send('description='+(new Date).toString()+'&product=firefoxos');
+  xhr.send(sendobj);
   function responseHandler() {
-
 		createli("status is " + xhr.status);
 		createli("readystate "+xhr.readyState);
 		createli("response text "+xhr.responseText);
