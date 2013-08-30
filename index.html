@@ -27,7 +27,7 @@
   xhr.open('POST', this.feedbackUrl, true);
   xhr.setRequestHeader(
       'Content-type', 'application/json');
-  xhr.onload = responseHandler;
+  xhr.onreadystatechange = responseHandler;
 
   xhr.send(JSON.stringify(sendobj));
   function responseHandler() {
@@ -36,7 +36,6 @@
 		createli("response text "+xhr.responseText);
 	}
   
-
 </script>
 
 
