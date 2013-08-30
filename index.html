@@ -28,12 +28,13 @@
   xhr.setRequestHeader(
       'Content-type', 'application/json');
   xhr.onreadystatechange = responseHandler;
+  xhr.responseType = 'json';
 
   xhr.send(JSON.stringify(sendobj));
   function responseHandler() {
 		createli("status is " + xhr.status);
 		createli("readystate "+xhr.readyState);
-		createli("response text "+xhr.responseText);
+		createli("readystate "+xhr.response);
 	}
   
 </script>
