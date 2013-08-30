@@ -27,9 +27,9 @@
   xhr.open('POST', this.feedbackUrl, true);
   xhr.setRequestHeader(
       'Content-type', 'application/json');
-  xhr.onreadystatechange = responseHandler;
+  xhr.onload = responseHandler;
 
-  xhr.send(sendobj);
+  xhr.send(JSON.stringify(sendobj));
   function responseHandler() {
 		createli("status is " + xhr.status);
 		createli("readystate "+xhr.readyState);
